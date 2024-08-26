@@ -12,3 +12,12 @@ document.addEventListener("keydown", function(e) {
         box3.innerText = "🌚";
     }
 });
+
+var button = document.querySelector("button");
+//console.log(button);
+
+button.addEventListener("click", function () {
+    box1.innerText = "1";
+    box2.innerText = "2";
+    box3.innerText = "3";
+});
